@@ -1,7 +1,7 @@
 pipeline {
   agent any 
   environment {
-        DOCKER_HUB_CREDENTIALS = credentials('ddockerhub')
+        DOCKER_HUB_CREDENTIALS = credentials('dockerhub')
         DOCKER_IMAGE_NAME = 'devops'
         DOCKER_IMAGE_TAG = 'latest'
     }
